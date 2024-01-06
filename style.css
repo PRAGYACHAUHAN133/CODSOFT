@@ -1,0 +1,182 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#080808;
+    color:whitesmoke;
+ }
+  .header{
+    background-size: cover; 
+    background-position: center;   
+}
+.container{
+    margin: 10px;
+    padding: 10px,10px; 
+    text-align:center;
+    padding-right: 40px; 
+}
+ .container nav ul{
+    height: 60px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 4%;
+    font-size: larger;
+} 
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px,20px;
+}
+nav ul li a{
+    color: orange;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    justify-content: space-evenly;
+}
+nav ul li a::after{
+    content:'';
+    height: 3px;
+    background:orange;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+margin-top: 10%;
+font-size: 25px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #ffaa00;
+}
+.header-text span{
+    color: #ffaa00;
+}
+/* about me */
+#about{
+    padding: 80px 0;
+    color: peachpuff;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+    position: relative;
+    overflow: hidden;
+}
+.about-col-1 img{
+    width:100%;
+    height: 450px;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+    text-align: center;
+}
+.about-col-2 p{
+    font-size: 20px;
+    font:100;
+text-align: center;
+}
+.sub-title{
+    font-size: 60px;
+    color: aliceblue;
+}
+.tab-titles{
+    font-size: 800px;
+    color: aliceblue;
+    list-style: none;
+}
+.tab-titles p{
+    font-size: 50px;
+    padding: 10px;
+}
+.about-col-2 span{
+    text-align: right;
+    color:peachpuff;
+    font-size: large;
+    padding: 10px;
+}
+/* skill */
+#skills{
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffaa00;
+    line-height: 35px;
+}
+#skills h1{
+    color: aliceblue;
+    font-size: 70px;
+    padding: 20px;
+}
+/* project */
+#projects{
+    padding: 100px;
+    font-size: larger;
+    color: #ffaa00;
+    text-align: left;
+    line-height: 35px;
+}
+#projects h2{
+    font-size: 80px;
+    color: aliceblue;
+    padding: 50px;
+}
+.project1 h3{
+    color: aliceblue;
+}
+.project1 span{
+    color: aliceblue;
+}
+.project2 h3{
+    color: aliceblue;
+}
+.project2 span{
+    color: aliceblue;
+}
+.project3 h3{
+    color: aliceblue;
+}
+.project3 span{
+    color: aliceblue;
+}
+/* resume */
+#resume{
+    padding: 50px;
+    color: #ffaa00;
+    align-items:flex-end;
+    font-size:30px;
+}
+#resume h1{
+    color: aliceblue;
+}
+/* contact */
+#contact{
+padding: 100px;
+color: #ffaa00;
+align-items: center;
+font-size:30px;
+}
+#contact h1{
+    size: 150px;
+    color: aliceblue;
+}
+#contact span{
+    color: aliceblue;
+}
